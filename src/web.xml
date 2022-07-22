@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF=8"?>
+<web-app>
+    <servlet>
+        <servlet-name>SimpleServlet</servlet-name>
+        <servlet-class>SimpleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SimpleServlet</servlet-name>
+        <url-pattern>/SimpleServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+        30
+    </session-config>
+</web-app>
